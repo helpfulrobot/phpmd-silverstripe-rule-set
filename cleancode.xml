@@ -68,7 +68,10 @@ class Foo
         </example>
     </rule>
 
-    <rule name="StaticAccess"
+<!--
+
+  Deactivated as it is common practice to use static methods in Silverstripe
+     <rule name="StaticAccess"
           since="1.4.0"
           message="Avoid using static access to class '{0}' in method '{1}'."
           class="PHPMD\Rule\CleanCode\StaticAccess"
@@ -96,4 +99,4 @@ class Foo
             ]]>
         </example>
     </rule>
-</ruleset>
+</ruleset> -->
