@@ -35,6 +35,9 @@ class Foo {
         </example>
     </rule>
 
+<!--
+
+  Deactivated
     <rule name="ElseExpression"
           since="1.4.0"
           message="The method {0} uses an else expression. Else is never necessary and you can simplify the code to work without else."
@@ -67,7 +70,7 @@ class Foo
             ]]>
         </example>
     </rule>
-
+-->
 <!--
 
   Deactivated as it is common practice to use static methods in Silverstripe
