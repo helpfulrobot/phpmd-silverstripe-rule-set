@@ -47,9 +47,13 @@ If you'd like to use this in conjunction with Sublime`s PHPCS package you need t
     // {
     //     "codesize,unusedcode"
     // }
-    // PTH: naming is currently not included as it would throw errors at any $db method.
     "phpmd_additional_args": {
-        "~/.config/phpmd-silverstripe-rule-set/cleancode.xml ~/.config/phpmd-silverstripe-rule-set/codesize.xml ~/.config/phpmd-silverstripe-rule-set/controversial.xml ~/.config/phpmd-silverstripe-rule-set/design.xml ~/.config/phpmd-silverstripe-rule-set/naming.xml ~/.config/phpmd-silverstripe-rule-set/unusedcode.xml": ""
+        "~/.config/phpmd-silverstripe-rule-set/cleancode.xml": "",
+        "~/.config/phpmd-silverstripe-rule-set/codesize.xml": "",
+        "~/.config/phpmd-silverstripe-rule-set/controversial.xml": "",
+        "~/.config/phpmd-silverstripe-rule-set/design.xml": "",
+        "~/.config/phpmd-silverstripe-rule-set/naming.xml": "",
+        "~/.config/phpmd-silverstripe-rule-set/unusedcode.xml": ""
     }
 ```
 
