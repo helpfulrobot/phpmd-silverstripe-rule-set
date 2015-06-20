@@ -19,7 +19,7 @@ Detects when a field, local, or parameter has a very short name.
         <priority>3</priority>
         <properties>
             <property name="minimum" description="Minimum length for a variable, property or parameter name" value="3"/>
-            <property name="exceptions" description="Comma-separated list of exceptions" value=""/>
+            <property name="exceptions" description="Comma-separated list of exceptions" value="db"/>
         </properties>
         <example>
             <![CDATA[
@@ -75,7 +75,7 @@ Detects when very short method names are used.
         <priority>3</priority>
         <properties>
             <property name="minimum" description="Minimum length for a method or function name" value="3"/>
-            <property name="exceptions" description="Comma-separated list of exceptions" value=""/>
+            <property name="exceptions" description="Comma-separated list of exceptions" value="up"/>
         </properties>
         <example>
             <![CDATA[
