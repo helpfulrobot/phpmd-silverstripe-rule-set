@@ -21,7 +21,7 @@ git clone git@github.com:spekulatius/phpmd-silverstripe-rule-set.git ~/.config/p
 
 To run the mess detector you need to define the rules you like to apply. The following example applies all rule sets:
   ```
-  ~/.composer/vendor/phpmd/phpmd/src/bin/phpmd /path/to/your/SilverStripe/Project/YourFile.php text ~/.config/phpmd-silverstripe-rule-set/*.xml
+  ~/.composer/vendor/phpmd/phpmd/src/bin/phpmd /path/to/your/SilverStripe/Project/YourFile.php text ~/.config/phpmd-silverstripe-rule-set/cleancode.xml ~/.config/phpmd-silverstripe-rule-set/codesize.xml ~/.config/phpmd-silverstripe-rule-set/controversial.xml ~/.config/phpmd-silverstripe-rule-set/design.xml ~/.config/phpmd-silverstripe-rule-set/naming.xml ~/.config/phpmd-silverstripe-rule-set/unusedcode.xml
   ```
 
 ### Configuration for Sublime`s PHPCS module
@@ -49,7 +49,7 @@ If you'd like to use this in conjunction with Sublime`s PHPCS package you need t
     // }
     // PTH: naming is currently not included as it would throw errors at any $db method.
     "phpmd_additional_args": {
-        "~/phpmd-silverstripe-rule-sets/*.xml": ""
+        "~/.config/phpmd-silverstripe-rule-set/cleancode.xml ~/.config/phpmd-silverstripe-rule-set/codesize.xml ~/.config/phpmd-silverstripe-rule-set/controversial.xml ~/.config/phpmd-silverstripe-rule-set/design.xml ~/.config/phpmd-silverstripe-rule-set/naming.xml ~/.config/phpmd-silverstripe-rule-set/unusedcode.xml": ""
     }
 ```
 
