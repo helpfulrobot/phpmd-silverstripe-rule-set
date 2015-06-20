@@ -1,0 +1,40 @@
+{
+    "name": "spekulatius/phpmd-silverstripe-ruleset",
+    "description": "Adjustment of the PHPMD rules to suit SilverStripes needs better",
+    "keywords": [
+        "phpmd",
+        "pdepend",
+        "pmd",
+        "mess detection",
+        "mess detector",
+        "silverstripe",
+        "ss"
+    ],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Manuel Pichler",
+            "homepage": "https://github.com/manuelpichler",
+            "email": "github@manuel-pichler.de",
+            "role": "Project founder"
+        },
+        {
+            "name": "Peter Thaleikis",
+            "homepage": "https://github.com/spekulatius",
+            "role": "Contributor"
+        },
+        {
+            "name": "Other contributors",
+            "homepage": "https://github.com/phpmd/phpmd/graphs/contributors",
+            "role": "Contributors"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/phpmd"
+    },
+    "minimum-stability" : "stable",
+    "require": {
+        "phpmd/phpmd": "@stable"
+    }
+}
