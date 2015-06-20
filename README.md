@@ -26,7 +26,7 @@ To run the mess detector you need to define the rules you like to apply. The fol
 
 ### Configuration for Sublime`s PHPCS module
 
-If you'd like to use this in conjunction with Sublime`s PHPCS package you need to this configuration:
+If you'd like to use this in conjunction with Sublime`s PHPCS package you need to add this configuration:
 
 ```
     // PHP Mess Detector settings
