@@ -53,6 +53,11 @@ If you'd like to use this in conjunction with Sublime`s PHPCS package you need t
     }
 ```
 
+### Troubleshooting
+
+If PHPMD doesn't seem to work open the console with ```Ctrl = ```` and see what is happening on save. If you get an ```FileNotFoundError: [Errno 2] No such file or directory: '~/.composer/vendor/phpmd/phpmd/src/bin/phpmd'```` you need to adjust the "~" to your actual home directory.
+
+
 ### State
 
 This repo is and probably will be "in work" for a long time. I'm happy to merge pull requests.
