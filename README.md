@@ -1,4 +1,6 @@
-## PHPMD rule set for SilverStripe projects
+## PHPMD rule set for SilverStripe projects (DEPRECATED)
+
+**Please use https://github.com/assertchris/silverstripe-code-review instead!**
 
 Some rules in the default configuration of PHPMD aren't ideal for SilverStripe projects. This repo is offering an adjusted set of rules to provide you with noise-free PHP mess detection messages.
 
